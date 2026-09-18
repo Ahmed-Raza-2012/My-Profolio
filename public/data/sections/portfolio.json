@@ -1,0 +1,426 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            },
+            "es": {
+                "title_short": "Portafolio",
+                "title_short_nav": "Portafolio",
+                "title_long_prefix": "Explora",
+                "title_long": "Mi {{Portafolio}}"
+            },
+            "fr": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Découvrez",
+                "title_long": "Mon {{Portfolio}}"
+            },
+            "ko": {
+                "title_short": "포트폴리오",
+                "title_short_nav": "포트폴리오",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{포트폴리오}}입니다"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_apps": "Apps",
+                    "category_web": "Web / Full-Stack",
+                    "category_utilities": "Utilities & APIs"
+                },
+                "es": {
+                    "category_all": "Todo",
+                    "category_apps": "Apps",
+                    "category_web": "Web / Full-Stack",
+                    "category_utilities": "Utilidades y APIs"
+                },
+                "fr": {
+                    "category_all": "Tout",
+                    "category_apps": "Apps",
+                    "category_web": "Web / Full-Stack",
+                    "category_utilities": "Utilitaires et API"
+                },
+                "ko": {
+                    "category_all": "모두",
+                    "category_apps": "앱",
+                    "category_web": "웹 / 풀스택",
+                    "category_utilities": "유틸리티 및 API"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_apps", "category_web", "category_utilities"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-3.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
+                            {"href": "https://npm.com", "tooltipString": "see_on_npm", "faIcon": "fa-brands fa-npm"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png",
+                            "images/pictures/screenshot-demo-landscape-3.png",
+                            "images/pictures/screenshot-demo-landscape-4.png",
+                            "images/pictures/screenshot-demo-landscape-5.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=PnV8p1xm7-o"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "BrainPulse",
+                            "text": "A full-stack solution featuring a <b>RESTful API</b> backend built with <b>Node.js</b> and an admin dashboard for real-time event handling.",
+                            "tags": ["Full-Stack", "Node.js", "REST API"]
+                        },
+                        "es": {
+                            "title": "BrainPulse",
+                            "text": "Una solución full-stack con backend de <b>API RESTful</b> construida con <b>Node.js</b> y panel de administración en tiempo real.",
+                            "tags": ["Full-Stack", "Node.js", "REST API"]
+                        },
+                        "fr": {
+                            "title": "BrainPulse",
+                            "text": "Une solution full-stack comprenant un backend <b>API RESTful</b> construit avec <b>Node.js</b> et un tableau de bord en temps réel.",
+                            "tags": ["Full-Stack", "Node.js", "REST API"]
+                        },
+                        "ko": {
+                            "title": "BrainPulse",
+                            "text": "<b>Node.js</b>로 구축된 <b>RESTful API</b> 백엔드와 실시간 관리를 위한 어드민 대시보드를 갖춘 풀스택 솔루션입니다.",
+                            "tags": ["Full-Stack", "Node.js", "REST API"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/portfolio-project-logo-7.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-portrait-1.png",
+                            "images/pictures/screenshot-demo-portrait-2.png",
+                            "images/pictures/screenshot-demo-portrait-3.png",
+                            "images/pictures/screenshot-demo-portrait-4.png",
+                            "images/pictures/screenshot-demo-portrait-5.png",
+                            "images/pictures/screenshot-demo-portrait-6.png"
+                        ],
+                        "screenshotsAspectRatio": "9:16",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MailM8",
+                            "text": "A full-stack cross-platform email client built with <b>Flutter</b> and full backend mail server integration for <b>managing emails</b>.",
+                            "tags": ["Flutter", "Full-Stack", "Communication"]
+                        },
+                        "es": {
+                            "title": "MailM8",
+                            "text": "Un cliente de correo electrónico multiplataforma full-stack construido con <b>Flutter</b> e integración de servidor de correo backend.",
+                            "tags": ["Flutter", "Full-Stack", "Comunicación"]
+                        },
+                        "fr": {
+                            "title": "MailM8",
+                            "text": "Un client de messagerie multiplateforme full-stack construit avec <b>Flutter</b> et intégration de serveur de messagerie backend.",
+                            "tags": ["Flutter", "Full-Stack", "Communication"]
+                        },
+                        "ko": {
+                            "title": "MailM8",
+                            "text": "<b>Flutter</b> 및 백엔드 메일 서버 연동으로 구축된 풀스택 크로스플랫폼 이메일 클라이언트입니다.",
+                            "tags": ["Flutter", "Full-Stack", "소통"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/portfolio-project-logo-6.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png",
+                            "images/pictures/screenshot-demo-landscape-3.png",
+                            "images/pictures/screenshot-demo-landscape-4.png",
+                            "images/pictures/screenshot-demo-landscape-5.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Light Blue",
+                            "text": "A full-stack productivity application developed with <b>React Native</b> and Firebase backend, enabling multi-device <b>cloud sync</b> and task tracking.",
+                            "tags": ["React Native", "Firebase", "Full-Stack"]
+                        },
+                        "es": {
+                            "title": "Light Blue",
+                            "text": "Aplicación de productividad full-stack desarrollada con <b>React Native</b> y backend en Firebase con <b>sincronización en la nube</b>.",
+                            "tags": ["React Native", "Firebase", "Full-Stack"]
+                        },
+                        "fr": {
+                            "title": "Light Blue",
+                            "text": "Application de productivité full-stack développée avec <b>React Native</b> et backend Firebase avec <b>synchronisation cloud</b>.",
+                            "tags": ["React Native", "Firebase", "Full-Stack"]
+                        },
+                        "ko": {
+                            "title": "Light Blue",
+                            "text": "<b>React Native</b> 및 Firebase 백엔드로 개발된 풀스택 생산성 앱으로 다중 기기 <b>클라우드 동기화</b>를 지원합니다.",
+                            "tags": ["React Native", "Firebase", "Full-Stack"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-logo-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://cash.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "SmartCash",
+                            "text": "A full-stack financial web app built using <b>Next.js</b> and Node.js backend, featuring real-time budget tracking and interactive analytics.",
+                            "tags": ["Next.js", "Full-Stack", "Finance"]
+                        },
+                        "es": {
+                            "title": "SmartCash",
+                            "text": "Aplicación web financiera full-stack construida con <b>Next.js</b> y backend Node.js, para el seguimiento de presupuestos en tiempo real.",
+                            "tags": ["Next.js", "Full-Stack", "Finanzas"]
+                        },
+                        "fr": {
+                            "title": "SmartCash",
+                            "text": "Application web financière full-stack conçue avec <b>Next.js</b> et backend Node.js, pour le suivi des budgets en temps réel.",
+                            "tags": ["Next.js", "Full-Stack", "Finance"]
+                        },
+                        "ko": {
+                            "title": "SmartCash",
+                            "text": "<b>Next.js</b> 및 Node.js 백엔드로 구축된 풀스택 금융 웹 애플리케이션으로 실시간 예산 추적 기능을 제공합니다.",
+                            "tags": ["Next.js", "Full-Stack", "금융"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_apps",
+                    "img": "images/pictures/portfolio-project-logo-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Snappy",
+                            "text": "A powerful full-stack photography app designed with <b>Swift</b> and custom backend APIs, featuring <b>advanced camera controls</b> and cloud storage.",
+                            "tags": ["Swift", "Full-Stack", "Camera"]
+                        },
+                        "es": {
+                            "title": "Snappy",
+                            "text": "Aplicación de fotografía full-stack diseñada con <b>Swift</b> y APIs backend personalizadas, con <b>controles avanzados de cámara</b>.",
+                            "tags": ["Swift", "Full-Stack", "Cámara"]
+                        },
+                        "fr": {
+                            "title": "Snappy",
+                            "text": "Application de photographie full-stack conçue avec <b>Swift</b> et des API backend personnalisées, incluant des <b>contrôles de caméra avancés</b>.",
+                            "tags": ["Swift", "Full-Stack", "Caméra"]
+                        },
+                        "ko": {
+                            "title": "Snappy",
+                            "text": "<b>Swift</b> 및 맞춤형 백엔드 API로 설계된 강력한 풀스택 사진 앱으로 <b>고급 카메라 제어</b>를 제공합니다.",
+                            "tags": ["Swift", "Full-Stack", "카메라"]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-logo-5.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Sweet Scoops",
+                            "text": "A full-stack e-commerce website built with <b>WordPress</b>, WooCommerce, and custom REST API integrations for online ordering.",
+                            "tags": ["WooCommerce", "Full-Stack", "E-Commerce"]
+                        },
+                        "es": {
+                            "title": "Sweet Scoops",
+                            "text": "Sitio web e-commerce full-stack construido con <b>WordPress</b>, WooCommerce e integraciones REST API personalizadas.",
+                            "tags": ["WooCommerce", "Full-Stack", "E-Commerce"]
+                        },
+                        "fr": {
+                            "title": "Sweet Scoops",
+                            "text": "Site e-commerce full-stack construit avec <b>WordPress</b>, WooCommerce et des intégrations API REST personnalisées.",
+                            "tags": ["WooCommerce", "Full-Stack", "E-Commerce"]
+                        },
+                        "ko": {
+                            "title": "Sweet Scoops",
+                            "text": "<b>WordPress</b>, WooCommerce 및 맞춤형 REST API 연동으로 구축된 풀스택 전자상거래 웹사이트입니다.",
+                            "tags": ["WooCommerce", "Full-Stack", "전자상거래"]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-guitar",
+                    "faIconColors": {"bg": "#7671AA", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "RockVerse",
+                            "text": "A full-stack web application developed with <b>Django</b> and JavaScript frontend, showcasing music news, events, and <b>streaming content</b>.",
+                            "tags": ["Django", "Full-Stack", "Music"]
+                        },
+                        "es": {
+                            "title": "RockVerse",
+                            "text": "Aplicación web full-stack desarrollada con <b>Django</b> y frontend en JavaScript, para eventos y <b>contenido en streaming</b>.",
+                            "tags": ["Django", "Full-Stack", "Música"]
+                        },
+                        "fr": {
+                            "title": "RockVerse",
+                            "text": "Application web full-stack développée avec <b>Django</b> et frontend JavaScript, présentant des événements et du <b>contenu en streaming</b>.",
+                            "tags": ["Django", "Full-Stack", "Musique"]
+                        },
+                        "ko": {
+                            "title": "RockVerse",
+                            "text": "<b>Django</b> 및 JavaScript 프론트엔드로 개발된 풀스택 웹 애플리케이션으로 음악 뉴스 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
+                            "tags": ["Django", "Full-Stack", "음악"]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-4.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Soccer Analytics",
+                            "text": "An AI-powered full-stack web platform built with <b>Python</b>, <b>TensorFlow</b>, and a web UI for team analytics and <b>predictions</b>.",
+                            "tags": ["Full-Stack", "AI", "Python"]
+                        },
+                        "es": {
+                            "title": "Soccer Analytics",
+                            "text": "Plataforma web full-stack con IA construida con <b>Python</b>, <b>TensorFlow</b> e interfaz web para análisis y <b>predicciones</b>.",
+                            "tags": ["Full-Stack", "IA", "Python"]
+                        },
+                        "fr": {
+                            "title": "Soccer Analytics",
+                            "text": "Plateforme web full-stack alimentée par IA construite avec <b>Python</b>, <b>TensorFlow</b> et une interface web pour les <b>prédictions</b>.",
+                            "tags": ["Full-Stack", "IA", "Python"]
+                        },
+                        "ko": {
+                            "title": "Soccer Analytics",
+                            "text": "<b>Python</b>, <b>TensorFlow</b> 및 웹 UI로 구축된 AI 기반 풀스택 웹 플랫폼으로 축구 <b>예측</b> 및 분석을 제공합니다.",
+                            "tags": ["Full-Stack", "AI", "Python"]
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "categoryId": "category_apps",
+                    "img": "",
+                    "faIcon": "fa-solid fa-truck-fast",
+                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
+                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
+                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "QuickDrop",
+                            "text": "A full-stack cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b>.",
+                            "tags": ["Full-Stack", "React Native", "Node.js"]
+                        },
+                        "es": {
+                            "title": "QuickDrop",
+                            "text": "Aplicación de entregas full-stack multiplataforma construida con <b>React Native</b> y backend en <b>Node.js</b> con <b>seguimiento en tiempo real</b>.",
+                            "tags": ["Full-Stack", "React Native", "Node.js"]
+                        },
+                        "fr": {
+                            "title": "QuickDrop",
+                            "text": "Application de livraison full-stack multiplateforme construite avec <b>React Native</b> et backend <b>Node.js</b> avec <b>suivi en temps réel</b>.",
+                            "tags": ["Full-Stack", "React Native", "Node.js"]
+                        },
+                        "ko": {
+                            "title": "QuickDrop",
+                            "text": "<b>React Native</b> 및 <b>Node.js 백엔드</b>로 구축된 풀스택 크로스플랫폼 배송 앱으로 <b>실시간 추적</b>을 제공합니다.",
+                            "tags": ["Full-Stack", "React Native", "Node.js"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

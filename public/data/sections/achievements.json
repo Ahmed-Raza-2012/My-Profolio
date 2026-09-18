@@ -1,0 +1,181 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Achievements",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Here are my",
+                "title_long": "Certifications & {{Achievements}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "en": { "title": "Certifications & Training" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": { "bg": "#339933", "fill": "#EEE" },
+                    "date": { "year": 2026, "month": 8 },
+                    "link": { "href": "https://www.saylaniwelfare.com/", "tooltipString": "open_website" },
+                    "locales": {
+                        "en": {
+                            "title": "{{SMIT}} Web Development Certification",
+                            "text": "Certified Web & Mobile App Developer (Frontend & Modern Stack)"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": { "bg": "#F7DF1E", "fill": "#111" },
+                    "date": { "year": 2026, "month": 5 },
+                    "link": { "href": "https://github.com/", "tooltipString": "see_on_github" },
+                    "locales": {
+                        "en": {
+                            "title": "{{JavaScript}} ES6+ & Logic Building",
+                            "text": "Completed advanced JavaScript programming & logic exercises"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": { "bg": "#61DAFB", "fill": "#111" },
+                    "date": { "year": 2026, "month": 3 },
+                    "link": { "href": "https://github.com/", "tooltipString": "see_on_github" },
+                    "locales": {
+                        "en": {
+                            "title": "{{React.js}} Frontend Specialist",
+                            "text": "Certified in React state management, hooks, and responsive UI creation"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": { "bg": "#FFCA28", "fill": "#111" },
+                    "date": { "year": 2026, "month": 2 },
+                    "link": { "href": "https://firebase.google.com/", "tooltipString": "open_website" },
+                    "locales": {
+                        "en": {
+                            "title": "{{Firebase}} & Database Integration",
+                            "text": "Hands-on certification in Firestore, Auth rules, and cloud database setup"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Awards & Highlights" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": { "year": 2026, "month": 8 },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Healthcare Solution}} – Clinic Management System",
+                            "province": "Sindh",
+                            "country": "Pakistan",
+                            "institution": "Medical Management Application",
+                            "text": "Engineered a full-featured [[Clinic Management Web Application]] for streamlined patient appointments, prescription records, and doctor scheduling.",
+                            "list": [
+                                "Built responsive patient booking portal and doctor dashboard",
+                                "Managed real-time appointment status and patient history with database integration"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": { "year": 2026, "month": 7 },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Full-Stack Project Launch}} – NOMAN BURGER App",
+                            "province": "Sindh",
+                            "country": "Pakistan",
+                            "institution": "Commercial Fast Food Platform",
+                            "text": "Successfully engineered and deployed an end-to-end web system for [[NOMAN BURGER]], featuring real-time ordering and dynamic menu controls.",
+                            "list": [
+                                "Built fully responsive user UI and real-time dashboard",
+                                "Configured cloud hosting and seamless Vercel deployment"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": { "year": 2026, "month": 4 },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Participant & Developer}} – SMIT Grand Coding Night 2026",
+                            "province": "Sindh",
+                            "country": "Pakistan",
+                            "institution": "SMIT",
+                            "text": "Awarded for active participation in an overnight hackathon where I built [[Helplytics AI]], a community support web app with React and Tailwind CSS."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "date": { "year": 2026, "month": 2 },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Best Admin Dashboard Design}} – TaskNova",
+                            "province": "Sindh",
+                            "country": "Pakistan",
+                            "institution": "Task Nova Application",
+                            "text": "Recognized for designing [[TaskNova]], a multi-role task management web application with secure admin and user panels."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "developerSettings": {
+        "debugMode": false,
+        "fakeEmailRequests": false,
+        "stayOnThePreloaderScreen": false,
+        "version": "2.0.3"
+    },
+
+    "preloaderSettings": {
+        "enabled": true,
+        "title": "Ahmed Raza <strong>Portfolio</strong>",
+        "subtitle": "Web Developer",
+        "logoOffset": {
+            "right": 14,
+            "top": 2,
+            "bottom": 0
+        }
+    },
+
+    "templateSettings": {
+        "animatedCursorEnabled": true,
+        "backgroundStyle": "animated",
+        "defaultLanguageId": "en",
+        "defaultThemeId": "dark",
+        "fullscreenEnabled": true,
+        "showSpinnerOnThemeChange": true
+    },
+
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en-us.png"
+        }
+    ],
+
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "icon": "fa-solid fa-moon",
+            "dark": true,
+            "locales": {
+                "en": {"name": "Dark Mode"}
+            }
+        },
+        {
+            "id": "light",
+            "icon": "fa-solid fa-sun",
+            "dark": false,
+            "locales": {
+                "en": {"name": "Light Mode"}
+            }
+        }
+    ],
+
+    "consoleMessageForDevelopers": {
+        "title": "🖥️ Welcome to Ahmed Raza's Portfolio!",
+        "items": [
+            {
+                "description": "Frontend & Full Stack Web Developer specializing in React and modern UI applications.",
+                "list": [],
+                "listStyle": "none"
+            },
+            {
+                "description": "Developer Info:",
+                "list": [
+                    "Developer: Ahmed Raza"
+                ],
+                "listStyle": "bulleted"
+            }
+        ]
+    },
+
+    "imagesToCache": [
+        "images/pictures/profile-picture-dark.jpg",
+        "images/pictures/profile-picture-light.jpg"
+    ]
+}

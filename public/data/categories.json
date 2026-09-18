@@ -1,0 +1,44 @@
+{
+    "categories": [
+        {
+            "id": "home",
+            "faIcon": "fa-regular fa-user",
+            "locales": {
+                "en": {"title": "Home"},
+                "es": {"title": "Home"},
+                "fr": {"title": "Home"},
+                "ko": {"title": "Home"}
+            }
+        },
+        {
+            "id": "background",
+            "faIcon": "fa-regular fa-clock",
+            "locales": {
+                "en": {"title": "Background"},
+                "es": {"title": "Background"},
+                "fr": {"title": "Background"},
+                "ko": {"title": "Background"}
+            }
+        },
+        {
+            "id": "showcase",
+            "faIcon": "fa-regular fa-folder-open",
+            "locales": {
+                "en": {"title": "Projects"},
+                "es": {"title": "Projects"},
+                "fr": {"title": "Projects"},
+                "ko": {"title": "Projects"}
+            }
+        },
+        {
+            "id": "more",
+            "faIcon": "fa-regular fa-object-ungroup",
+            "locales": {
+                "en": {"title": "More"},
+                "es": {"title": "More"},
+                "fr": {"title": "More"},
+                "ko": {"title": "More"}
+            }
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Experience",
+        "title_short_nav": "Experience",
+        "title_long_prefix": "My Work",
+        "title_long": "{{Experience}} & Projects"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleTimeline",
+      "locales": {},
+      "settings": {
+        "order_items_by": "dateStart",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "",
+          "faIcon": "fa-solid fa-utensils",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2026, "month": 4 },
+          "dateEnd": { "year": 2026, "month": 7 },
+          "locales": {
+            "en": {
+              "title": "Full-Stack Web Developer — {{NOMAN BURGER}}",
+              "province": "Sindh",
+              "country": "Pakistan",
+              "institution": "Restaurant Order System",
+              "text": "Designed and built a complete dynamic web platform for [[NOMAN BURGER, Fastfood & Bar B.Q]], enabling online orders, dynamic menu updates, and live order tracking.",
+              "list": [
+                "Implemented interactive frontend UI with React and Tailwind CSS",
+                "Integrated real-time database management and backend ordering flow",
+                "Created administrator controls for menu items and sales tracking"
+              ],
+              "tags": ["React", "Tailwind CSS", "JavaScript", "Firebase", "Node.js"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": "",
+          "faIcon": "fa-solid fa-tasks",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2026, "month": 2 },
+          "dateEnd": { "year": 2026, "month": 3 },
+          "locales": {
+            "en": {
+              "title": "Frontend & Dashboard Developer — {{TaskNova}}",
+              "province": "Sindh",
+              "country": "Pakistan",
+              "institution": "Task Management Web App",
+              "text": "Developed [[TaskNova]], a feature-rich task and user management dashboard integrated with modern authentication.",
+              "list": [
+                "Structured user and admin dashboard panels for task tracking",
+                "Configured Firebase authentication and Firestore database security rules",
+                "Optimized state management for responsive and real-time updates"
+              ],
+              "tags": ["React", "Firebase", "Firestore", "JavaScript", "CSS3"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-solid fa-laptop-code",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2025, "month": 9 },
+          "dateEnd": { "year": 2026, "month": 8 },
+          "locales": {
+            "en": {
+              "title": "Web Application Trainee & Developer",
+              "province": "Sindh",
+              "country": "Pakistan",
+              "institution": "SMIT (Saylani Mass IT Training)",
+              "text": "Collaborated on various real-world web applications and frontend component libraries.",
+              "list": [
+                "Built Amazon-style navigation bars, dynamic cards, and footer layouts",
+                "Created course management platforms with React Context API",
+                "Participated in Grand Coding Night 2026 to develop community platform tools"
+              ],
+              "tags": ["HTML5", "CSS3", "JavaScript", "React", "Git", "Vercel"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

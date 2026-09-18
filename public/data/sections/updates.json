@@ -1,0 +1,232 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Updates",
+        "title_short_nav": "Updates",
+        "title_long_prefix": "Take a look at my",
+        "title_long": "Recent {{Updates}}"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleFacts",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": { "bg": "", "fill": "" },
+          "value": "15+",
+          "locales": {
+            "en": {
+              "title": "Projects Completed"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "faIcon": "fa-solid fa-star",
+          "faIconColors": { "bg": "", "fill": "" },
+          "value": "20+",
+          "locales": {
+            "en": {
+              "title": "GitHub Repositories"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "faIcon": "fa-solid fa-laptop-code",
+          "faIconColors": { "bg": "", "fill": "" },
+          "value": "100%",
+          "locales": {
+            "en": {
+              "title": "Responsive Design Rate"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "faIcon": "fa-brands fa-react",
+          "faIconColors": { "bg": "", "fill": "" },
+          "value": "10+",
+          "locales": {
+            "en": {
+              "title": "React Applications"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "faIcon": "fa-solid fa-graduation-cap",
+          "faIconColors": { "bg": "", "fill": "" },
+          "value": "1+",
+          "locales": {
+            "en": {
+              "title": "Years at SMIT"
+            }
+          }
+        },
+        {
+          "id": 6,
+          "faIcon": "fa-solid fa-fire",
+          "faIconColors": { "bg": "", "fill": "" },
+          "value": "50,000+",
+          "locales": {
+            "en": {
+              "title": "Lines of Code Written"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "component": "ArticleThread",
+      "locales": {
+        "en": {
+          "title": "Quick Facts"
+        }
+      },
+      "settings": {
+        "max_rows_collapse_threshold": 4,
+        "order_items_by": "date",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "date": { "year": 2026, "month": 9 },
+          "preview": {
+            "links": [
+              { "href": "https://github.com/Ahmed-Raza-2012", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github" }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Engineered {{Full OLX Marketplace Web Platform}}!",
+              "province": "Sindh",
+              "country": "Pakistan",
+              "text": "Engineered a comprehensive classifieds marketplace web platform inspired by OLX. Built from scratch using modern HTML5, CSS3, JavaScript ES6+, and Bootstrap 5, featuring authentic brand styling, multi-category routing (Motors, Property, Electronics), and seamless user interactions.",
+              "list": [
+                "Custom navigation bar with location selection, search filters, and category toggles",
+                "Dynamic ad listing grids, product detail previews, and interactive user action buttons",
+                "Fully mobile-responsive layout structured according to modern UI/UX design standards"
+              ]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "date": { "year": 2026, "month": 8 },
+          "preview": {
+            "links": [
+              { "href": "https://github.com/Ahmed-Raza-2012", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github" }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Completed {{Full-Featured Clinic Management System}}!",
+              "province": "Sindh",
+              "country": "Pakistan",
+              "text": "Architected and deployed a web-based healthcare management system tailored for clinic operations, doctor scheduling, and patient administration. Built to streamline operational workflows and improve medical record management.",
+              "list": [
+                "Real-time appointment booking portal with dynamic status tracking (Pending, Confirmed, Completed)",
+                "Doctor shift allocation, patient medical history logs, and prescription record management",
+                "Clean dashboard interface built with responsive data tables and secure form validation"
+              ]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "date": { "year": 2026, "month": 7 },
+          "preview": {
+            "links": [
+              { "href": "https://github.com/Ahmed-Raza-2012", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github" }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Deployed {{NOMAN BURGER Fast-Food Platform}}!",
+              "province": "Sindh",
+              "country": "Pakistan",
+              "text": "Successfully engineered, styled, and deployed a complete web application for 'NOMAN BURGER, Fastfood & Bar B.Q'. The platform delivers a fast, interactive food ordering experience with real-time cart calculations and backend menu management.",
+              "list": [
+                "Categorized food menu with dynamic item filtering, custom deals, and price calculations",
+                "Interactive order cart with live quantity modifications and checkout validation",
+                "Admin management panel to handle live orders and dynamic product inventory updates"
+              ]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "date": { "year": 2026, "month": 4 },
+          "preview": {
+            "links": [
+              { "href": "https://github.com/Ahmed-Raza-2012", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github" }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Built Helplytics AI at {{SMIT Grand Coding Night 2026}}!",
+              "province": "Sindh",
+              "country": "Pakistan",
+              "text": "Participated in the high-intensity overnight SMIT Grand Coding Night 2026 hackathon and collaborated with team members to build 'Helplytics AI' — a community support network platform.",
+              "list": [
+                "Developed interactive frontend components using React.js and Tailwind CSS under strict time constraints",
+                "Implemented statistics metric cards, dynamic feature highlights, and seamless product demo routing"
+              ]
+            }
+          }
+        },
+        {
+          "id": 5,
+          "date": { "year": 2026, "month": 2 },
+          "preview": {
+            "links": [
+              { "href": "https://github.com/Ahmed-Raza-2012", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github" }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Developed {{TaskNova Task & User Management App}}!",
+              "province": "Sindh",
+              "country": "Pakistan",
+              "text": "Engineered 'TaskNova', a production-ready task management dashboard featuring secure user authentication modules, multi-role access controls, and real-time database syncing.",
+              "list": [
+                "Integrated Firebase Authentication with login, registration, and automated password reset workflows",
+                "Configured Firestore database structure with strict security rules for user and admin data protection",
+                "Built user task tracking boards and admin oversight panels with dynamic updates"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

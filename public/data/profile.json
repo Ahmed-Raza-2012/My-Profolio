@@ -1,0 +1,57 @@
+{
+    "name": "Ahmed Raza",
+
+    "profilePictureUrl": "images/pictures/profile-picture-{theme}.jpg",
+    "resumePdfUrl": "",
+
+    "statusCircleVisible": true,
+    " statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Ahmed Raza",
+            "localized_name_stylized": "Ahmed {{Raza}}",
+            "status_message_available_for_freelance": "Open for new projects!",
+            "roles": [
+                "Frontend Developer",
+                "Backend Developer",
+                "Full Stack Developer"
+            ],
+            "name_pronunciation_ipa": "/ahmed raza/",
+            "name_pronunciation_audio_url": "audio/ElevenLabs_2026-09-11T21_21_16_Arnold - Br_pvc_sp100_s56_sb80_se33_b_m2.mp3"
+        },
+        "es": {
+            "localized_name": "Ahmed Raza",
+            "localized_name_stylized": "Ahmed {{Raza}}",
+            "status_message_available_for_freelance": "Open for new projects!",
+            "roles": [
+                "Frontend Developer",
+                "Backend Developer",
+                "Full Stack Developer"
+            ] 
+        },
+        "fr": {
+            "localized_name": "Ahmed Raza",
+            "localized_name_stylized": "Ahmed {{Raza}}",
+            "status_message_available_for_freelance": "Open for new projects!",
+            "roles": [
+                "Frontend Developer",
+                "Backend Developer",
+                "Full Stack Developer"
+            ]
+        },
+        "ko": {
+            "localized_name": "Ahmed Raza",
+            "localized_name_stylized": "Ahmed {{Raza}}",
+            "status_message_available_for_freelance": "Open for new projects!",
+            "roles": [
+                "Frontend Developer",
+                "Backend Developer",
+                "Full Stack Developer"
+            ],
+            "name_pronunciation_ipa": "/ahmed raza/",
+            "name_pronunciation_audio_url": "audio/ElevenLabs_2026-09-11T21_21_16_Arnold - Br_pvc_sp100_s56_sb80_se33_b_m2.mp3"
+        }
+    }
+}
