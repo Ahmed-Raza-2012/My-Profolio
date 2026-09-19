@@ -2,7 +2,7 @@
     <img src="docs/assets/logo-large.png" width="120">
 </p>
 
-# [React Portfolio](my-portfolio-inky-one-47.vercel.app) by Ahmed Raxs
+# [React Portfolio](my-portfolio-inky-one-47.vercel.app) by Ahmed Raza
 
 A sleek, futuristic portfolio template for developers – built with **React** and **Bootstrap 5**.
 
